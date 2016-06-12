@@ -56,17 +56,18 @@ html {
 
 h1, h2{
 	font-family: 'Berkshire Swash', serif;
-	padding-bottom: 0.825em;
+	padding-bottom: 1em;
+	text-align: center;
 }
 
 h1 {
 	font-size: 3em;
+	padding-top: 1em;
 	text-align: center;
 }
 
 h2 {
 	font-size: 1.75em;
-	padding-left: 10%;
 }
 
 a, p {
@@ -82,10 +83,11 @@ input {
     appearance: button;
 	
   background-color: #A03BFF;
+	border-radius: 0.5em;
 	color: #fff;
 	display: block;
 	font-family: geneva, sans-serif;
-	font-size: 0.825em;
+	font-size: 1em;
   margin: 1em auto 1em auto;
 	padding: 0.825em;
   text-decoration: none;
@@ -110,6 +112,7 @@ input {
 
 #schedule {
 	background-color: #A03BFF;
+	font-size: 1.35em;
 	min-height: 4em;
 }
 
