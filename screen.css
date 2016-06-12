@@ -1,0 +1,153 @@
+/*CSS Reset Code*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* =================================================================================
+														End of CSS Reset Code
+ =================================================================================*/
+html {
+  color: #fff;	
+}
+
+h1, h2{
+	font-family: 'Berkshire Swash', serif;
+	padding-bottom: 0.825em;
+}
+
+h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 1.75em;
+	padding-left: 10%;
+}
+
+a, p {
+	font-family: geneva, sans-serif;
+	font-size: 1.125em;
+	padding-bottom: 0.625em;
+	text-transform: uppercase;
+}
+
+input {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	
+  background-color: #A03BFF;
+	color: #fff;
+	display: block;
+	font-family: geneva, sans-serif;
+	font-size: 0.825em;
+  margin: 1em auto 1em auto;
+	padding: 0.825em;
+  text-decoration: none;
+	text-transform: uppercase;
+	
+   
+}
+
+#main, #schedule, #info, #advert, #map{
+	padding: 1em;
+}
+
+#main {
+	background-color: #280F40;
+	min-height: 4em;
+}
+
+
+#main p{
+	text-align: center;
+}
+
+#schedule {
+	background-color: #A03BFF;
+	min-height: 4em;
+}
+
+#schedule a{
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#info {
+	background-color: #501D7F;
+	min-height: 4em;
+}
+
+#info p{
+	line-height: 2em;
+}
+
+#advert {
+	background-color: #A03BFF;
+	min-height: 4em;
+}
+
+#map {
+	background-color: #782CBF;
+	min-height: 4em;
+}
+
+
+/* =================================================================================
+															Media Query
+ =================================================================================*/
+
+@media screen and (min-width: 27.50em) { /*440px*/
+
+
+@media screen and (min-width: 43.75em) { /*700px*/
+	
+
+
+
