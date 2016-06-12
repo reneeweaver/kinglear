@@ -97,12 +97,12 @@ input {
 }
 
 #main, #schedule, #info, #advert, #map{
+	min-height: auto;
 	padding: 1em;
 }
 
 #main {
 	background-color: #280F40;
-	min-height: 4em;
 }
 
 
@@ -113,7 +113,6 @@ input {
 #schedule {
 	background-color: #A03BFF;
 	font-size: 1.35em;
-	min-height: 4em;
 }
 
 #schedule a{
@@ -124,7 +123,6 @@ input {
 
 #info {
 	background-color: #501D7F;
-	min-height: 4em;
 }
 
 #info p{
@@ -133,12 +131,17 @@ input {
 
 #advert {
 	background-color: #A03BFF;
-	min-height: 4em;
 }
 
 #map {
 	background-color: #782CBF;
-	min-height: 4em;
+}
+
+#mapcanvas {
+    width: 21.1111em;
+    height: 15.555em;
+    background-color: #ccc;
+    margin: 0.555em auto;
 }
 
 
@@ -151,6 +154,3 @@ input {
 
 @media screen and (min-width: 43.75em) { /*700px*/
 	
-
-
-
